@@ -6,12 +6,13 @@ export default function App(){
     return (
       <MainContent 
           key = {entry.id} // react keeps track of adding and removing...so if it has one or more same it gives an error
-          img = {entry.img}
-          title = {entry.title}
-          country = {entry.country}
-          googleMapsLink={entry.googleMapsLink}
-          dates = {entry.dates}
-          text = {entry.text}
+          // img = {entry.img}
+          // title = {entry.title}
+          // country = {entry.country}
+          // googleMapsLink={entry.googleMapsLink}
+          // dates = {entry.dates}
+          // text = {entry.text}
+          entry = {entry}
       />
   )
   })
