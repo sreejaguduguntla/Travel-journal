@@ -5,6 +5,7 @@ export default function App(){
   const entryElements = data.map((entry)=>{
     return (
       <MainContent 
+          key = {entry.id} // react keeps track of adding and removing...so if it has one or more same it gives an error
           img = {entry.img}
           title = {entry.title}
           country = {entry.country}
